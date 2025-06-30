@@ -1,0 +1,16 @@
+sub_config_a:
+  field_a: "http://localhost:8080"
+  field_b: 100
+  field_c: 1.23
+  field_d: true
+
+sub_config_b:
+  field_a: "http://localhost:8081"
+  field_b: 100
+  field_c: 1.23
+  field_d: true
+
+sub_config_c:
+  api_url: "http://api.weatherapi.com/v1"
+  api_key: "24fb5953f5014c028a2150358250302"
+  default_city: "jakarta"
