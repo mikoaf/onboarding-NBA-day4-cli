@@ -28,6 +28,7 @@ func (s *Service) Init(ctx context.Context) {
 	s.ctx = ctx
 	go s.taskOne()
 	go s.taskTwo()
+	go s.taskWeather()
 }
 
 // Define all of your multitask application service here
